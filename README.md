@@ -1,0 +1,54 @@
+# KeyBlocker ⌨️🚫
+
+[English](#english) | [中文](#chinese)
+
+---
+
+<a name="english"></a>
+## English
+
+### Introduction
+**KeyBlocker** is a lightweight macOS menu bar application designed for users who place external keyboards (like HHKB or Keychron) directly on top of their MacBook's built-in keyboard. It allows you to disable the internal keyboard with a single click or a global hotkey, preventing accidental key presses.
+
+### Key Features
+- **Precise Blocking**: Only disables the built-in keyboard while keeping external USB/Bluetooth keyboards fully functional.
+- **Global Hotkey**: Toggle blocking status instantly using `Cmd + Opt + Ctrl + B`.
+- **Lightweight**: A single-file Swift application with minimal resource footprint.
+- **No Sandbox**: Built to run with full system access for stable hardware control.
+
+### How to Use
+1. **Compile**:
+   ```bash
+   swiftc KeyBlocker.swift -o KeyBlockerApp
+   ```
+2. **Run**: Launch `./KeyBlockerApp`.
+3. **Permissions**: Grant **Accessibility** permission in `System Settings -> Privacy & Security` when prompted.
+4. **Hotkey**: Press `⌘ + ⌥ + ⌃ + B` to toggle the blocking state.
+
+---
+
+<a name="chinese"></a>
+## 中文介绍
+
+### 简介
+**KeyBlocker** 是一款专为 macOS 设计的轻量级菜单栏应用。如果你习惯将外接键盘（如 HHKB 或 Keychron）直接叠放在 MacBook 的自带键盘上使用，这款工具可以帮你一键屏蔽内置键盘，彻底告别误触困扰。
+
+### 核心功能
+- **精准屏蔽**：仅屏蔽 MacBook 自带键盘，不影响任何外接 USB 或蓝牙键盘。
+- **全局快捷键**：使用 `Cmd + Opt + Ctrl + B` 随时随地快速切换屏蔽状态。
+- **极致轻量**：单文件 Swift 开发，占用资源极低，响应速度极快。
+- **无沙盒限制**：采用原生底层方案，确保硬件控制的稳定性。
+
+### 使用方法
+1. **编译**：
+   ```bash
+   swiftc KeyBlocker.swift -o KeyBlockerApp
+   ```
+2. **运行**：执行 `./KeyBlockerApp`。
+3. **授权**：首次运行时，请根据提示在 `系统设置 -> 隐私与安全性 -> 辅助功能` 中勾选 **KeyBlockerApp**。
+4. **快捷键**：按下 `⌘ + ⌥ + ⌃ + B` 即可快速开启或关闭屏蔽。
+
+---
+
+### License
+MIT License. Feel free to use and contribute!
