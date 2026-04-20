@@ -18,9 +18,13 @@
 
 ### How to Use
 1. **Download**: Go to the [Releases](https://github.com/kindredzhang/KeyBlocker/releases) page and download `KeyBlocker.dmg`.
-2. **Install**: Drag `KeyBlocker.app` to your Applications folder.
+2. **Install**: Open the `.dmg` and drag `KeyBlocker.app` to the `Applications` folder.
 3. **Permissions**: Grant **Accessibility** permission in `System Settings -> Privacy & Security` when prompted.
-4. **Hotkey**: Press `⌘ + ⌥ + ⌃ + B` to toggle the blocking state.
+4. **Security Tip**: Since the app is not signed with an Apple Developer certificate, if you see a "developer cannot be verified" warning:
+   - Go to `System Settings -> Privacy & Security`.
+   - Scroll down to the "Security" section.
+   - Click **"Open Anyway"**.
+5. **Hotkey**: Press `⌘ + ⌥ + ⌃ + B` to toggle the blocking state.
 
 ---
 
@@ -38,9 +42,13 @@
 
 ### 使用方法
 1. **下载**：前往 [Releases](https://github.com/kindredzhang/KeyBlocker/releases) 页面下载最新的 `KeyBlocker.dmg`。
-2. **安装**：将 `KeyBlocker.app` 拖入你的应用程序 (Applications) 文件夹。
+2. **安装**：打开 `.dmg` 文件，将 `KeyBlocker.app` 拖入 `Applications` 快捷方式。
 3. **授权**：首次运行时，请根据提示在 `系统设置 -> 隐私与安全性 -> 辅助功能` 中勾选 **KeyBlockerApp**。
-4. **快捷键**：按下 `⌘ + ⌥ + ⌃ + B` 即可快速开启或关闭屏蔽。
+4. **安全提示**：由于应用未通过 Apple 开发者认证，若提示“无法验证开发者”：
+   - 请前往 `系统设置 -> 隐私与安全性`。
+   - 下滑至“安全性”部分。
+   - 点击 **“仍要打开” (Open Anyway)**。
+5. **快捷键**：按下 `⌘ + ⌥ + ⌃ + B` 即可快速开启或关闭屏蔽。
 
 ---
 
