@@ -17,11 +17,8 @@
 - **No Sandbox**: Built to run with full system access for stable hardware control.
 
 ### How to Use
-1. **Compile**:
-   ```bash
-   swiftc KeyBlocker.swift -o KeyBlockerApp
-   ```
-2. **Run**: Launch `./KeyBlockerApp`.
+1. **Download**: Go to the [Releases](https://github.com/kindredzhang/KeyBlocker/releases) page and download `KeyBlocker.dmg`.
+2. **Install**: Drag `KeyBlocker.app` to your Applications folder.
 3. **Permissions**: Grant **Accessibility** permission in `System Settings -> Privacy & Security` when prompted.
 4. **Hotkey**: Press `⌘ + ⌥ + ⌃ + B` to toggle the blocking state.
 
@@ -40,11 +37,8 @@
 - **无沙盒限制**：采用原生底层方案，确保硬件控制的稳定性。
 
 ### 使用方法
-1. **编译**：
-   ```bash
-   swiftc KeyBlocker.swift -o KeyBlockerApp
-   ```
-2. **运行**：执行 `./KeyBlockerApp`。
+1. **下载**：前往 [Releases](https://github.com/kindredzhang/KeyBlocker/releases) 页面下载最新的 `KeyBlocker.dmg`。
+2. **安装**：将 `KeyBlocker.app` 拖入你的应用程序 (Applications) 文件夹。
 3. **授权**：首次运行时，请根据提示在 `系统设置 -> 隐私与安全性 -> 辅助功能` 中勾选 **KeyBlockerApp**。
 4. **快捷键**：按下 `⌘ + ⌥ + ⌃ + B` 即可快速开启或关闭屏蔽。
 
