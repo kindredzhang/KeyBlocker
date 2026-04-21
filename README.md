@@ -52,5 +52,39 @@
 
 ---
 
+### Build from Source
+If you want to build the app and DMG yourself:
+1. Clone the repository.
+2. Run the build script:
+   ```bash
+   chmod +x scripts/build.sh
+   ./scripts/build.sh
+   ```
+3. The `KeyBlocker.dmg` will be generated in the root directory.
+
+---
+
+### Project Structure
+- `Sources/`: Swift source code.
+- `Resources/`: App icons and logo.
+- `scripts/`: Build and icon generation scripts.
+
+### 源码编译
+如果你想自行编译：
+1. 克隆仓库。
+2. 运行构建脚本：
+   ```bash
+   chmod +x scripts/build.sh
+   ./scripts/build.sh
+   ```
+3. 生成的 `KeyBlocker.dmg` 将位于项目根目录。
+
+---
+
+### 项目结构
+- `Sources/`: Swift 源代码。
+- `Resources/`: 应用图标和 Logo。
+- `scripts/`: 构建和图标生成脚本。
+
 ### License
 MIT License. Feel free to use and contribute!

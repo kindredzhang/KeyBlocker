@@ -2,3 +2,7 @@ KeyBlockerApp
 temp-off-kb/
 KeyboardTester
 KeyboardTester.swift
+*.app
+*.dmg
+dmg_source/
+.DS_Store
