@@ -39,6 +39,15 @@ class KeyBlockerDelegate: NSObject, NSApplicationDelegate {
         IOHIDManagerRegisterInputValueCallback(hidManager!, { (context, result, sender, value) in
             guard let sender = sender else { return }
             let device = Unmanaged<IOHIDDevice>.fromOpaque(sender).takeUnretainedValue()
+
+            // 首先检查 kIOHIDBuiltInKey（Apple Silicon 和 Intel Mac 均支持）
+            if let builtIn = IOHIDDeviceGetProperty(device, kIOHIDBuiltInKey as CFString) as? NSNumber,
+               builtIn.boolValue {
+                _isInternalKeyPressed = true
+                return
+            }
+
+            // 兼容 Intel Mac 的备用检测方式
             let name = (IOHIDDeviceGetProperty(device, kIOHIDProductKey as CFString) as? String) ?? ""
             let transport = (IOHIDDeviceGetProperty(device, kIOHIDTransportKey as CFString) as? String) ?? ""
             _isInternalKeyPressed = (transport == "Internal" || name.contains("Apple Internal"))
